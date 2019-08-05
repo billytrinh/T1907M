@@ -14,12 +14,11 @@ int main(){
 			if(arr[j] == arr[i]){
 				printf("Nhap lai phan tu arr[%d] = \n",	i);
 				scanf("%d",&arr[i]);
-				j = -1;
+				j = 0;
+			}else{
+				j++;	
 			}
-			j++;
-		}
-		
+		}	
 	}
-
 	return 0;
 }
