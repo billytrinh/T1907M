@@ -24,4 +24,10 @@ int main(){
 			printf("%c",s1[i]-32);
 		}	
 	}
+
+	//printf("chuoi dao nguoc %s\n", strrev(s1));
+	for (int i = strlen(s1)-1; i >= 0; --i)
+	{
+		printf("%c",s1[i]);
+	}
 }
